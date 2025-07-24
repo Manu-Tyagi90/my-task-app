@@ -1,0 +1,21 @@
+# .gitignore
+
+# Ignore Maven and Java build files
+/backend/target/
+*.class
+*.jar
+*.war
+*.log
+
+# Ignore IDE settings
+*.iml
+.idea/
+.vscode/
+
+# Ignore Node and React build files
+/frontend/node_modules/
+frontend/build/
+.env
+
+# System files
+.DS_Store
